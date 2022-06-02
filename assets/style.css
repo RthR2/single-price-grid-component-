@@ -33,6 +33,10 @@ body {
     background-color: hsl(191, 61%, 93%);
 }
 
+ul, li {
+    list-style: none;
+}
+
 /* MAIN */
 .c-main {
    max-width: 100vw;
@@ -132,7 +136,7 @@ body {
     color: var(--lightGray);
 }
 
-.c-main__question__answer {
+.c-main__question_why-us-list {
     color: var(--lightGrayOpac);
     line-height: 2.4rem;
 }
